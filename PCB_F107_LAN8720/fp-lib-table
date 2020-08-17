@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name belkin)(type KiCad)(uri ${KIPRJMOD}/belkin.pretty)(options "")(descr ""))
+)

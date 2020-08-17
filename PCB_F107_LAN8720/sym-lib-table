@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PCB_F107_LAN8720-rescue)(type Legacy)(uri ${KIPRJMOD}/PCB_F107_LAN8720-rescue.lib)(options "")(descr ""))
+  (lib (name lan)(type Legacy)(uri ${KIPRJMOD}/lan.lib)(options "")(descr ""))
+)
