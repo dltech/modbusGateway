@@ -773,7 +773,7 @@ Text Label 5450 5950 0    60   ~ 0
 UART_RX
 Text Label 5450 5850 0    60   ~ 0
 UART_TX
-Text Label 5250 5050 0    60   ~ 0
+Text Label 5350 6050 0    60   ~ 0
 NSS
 Wire Wire Line
 	5250 4750 5850 4750
@@ -2194,7 +2194,7 @@ F 3 "" H 1000 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5250 5450
-NoConn ~ 5250 6050
+NoConn ~ 5250 5050
 NoConn ~ 5250 6150
 NoConn ~ 11700 5600
 Wire Wire Line
@@ -2254,10 +2254,6 @@ F 3 "" H 2000 6850 50  0000 C CNN
 	1    2000 6850
 	-1   0    0    1   
 $EndComp
-Entry Wire Line
-	5850 5050 5950 5150
-Wire Wire Line
-	5250 5050 5850 5050
 $Comp
 L device:C C36
 U 1 1 5F583244
@@ -2843,6 +2839,11 @@ Wire Wire Line
 Connection ~ 10850 2950
 Wire Wire Line
 	10700 2800 10850 2800
+Connection ~ 10850 2800
+Wire Wire Line
+	10850 2800 10850 2950
+Wire Wire Line
+	5250 6050 5850 6050
 Wire Bus Line
 	3000 2150 5850 2150
 Wire Bus Line
@@ -2855,7 +2856,6 @@ Wire Bus Line
 	1300 2400 1300 7600
 Wire Bus Line
 	5950 1200 5950 7500
-Connection ~ 10850 2800
-Wire Wire Line
-	10850 2800 10850 2950
+Entry Wire Line
+	5850 6050 5950 6150
 $EndSCHEMATC

@@ -2,4 +2,4 @@ bin/
 *.elf
 *.bin
 generated.*.ld
-fp-info-cache
+*cache*
