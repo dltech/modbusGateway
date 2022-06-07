@@ -1,5 +1,5 @@
-#ifndef H_DMA_REGS
-#define H_DMA_REGS
+#ifndef H_ETHERNET_REGS
+#define H_ETHERNET_REGS
 /*
  * Part of Belkin STM32 HAL, Ethernet register definitions of STM32F1xx MCUs.
  *
